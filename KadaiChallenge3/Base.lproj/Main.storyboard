@@ -149,18 +149,18 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="firstLabel" destination="nqt-mU-BEc" id="Cgi-9Z-ZQ7"/>
-                        <outlet property="firstSwitch" destination="jnV-91-t4G" id="VNa-Q5-AVh"/>
-                        <outlet property="firstText" destination="1Bj-eh-vxR" id="BMF-DL-jhD"/>
+                        <outlet property="firstLabel" destination="nqt-mU-BEc" id="iKy-JJ-plt"/>
+                        <outlet property="firstSwitch" destination="jnV-91-t4G" id="TWi-Iq-0Si"/>
                         <outlet property="resultLabel" destination="hUu-6k-DPz" id="jlv-eF-ue8"/>
-                        <outlet property="secondLabel" destination="j64-c1-988" id="kSv-EL-Qno"/>
-                        <outlet property="secondSwitch" destination="lwr-RK-bZS" id="DOv-iM-kfV"/>
-                        <outlet property="secondText" destination="LFB-n4-MjH" id="flP-CW-r8D"/>
+                        <outlet property="secondLabel" destination="j64-c1-988" id="CwV-Yv-QXw"/>
+                        <outlet property="secondSwitch" destination="lwr-RK-bZS" id="JKZ-qH-pWz"/>
+                        <outletCollection property="textField" destination="1Bj-eh-vxR" collectionClass="NSMutableArray" id="yRa-Uq-Di2"/>
+                        <outletCollection property="textField" destination="LFB-n4-MjH" collectionClass="NSMutableArray" id="cFe-A2-OpW"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="20" y="74"/>
+            <point key="canvasLocation" x="18.840579710144929" y="73.660714285714278"/>
         </scene>
     </scenes>
     <resources>
