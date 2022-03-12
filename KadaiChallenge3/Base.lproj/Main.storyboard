@@ -44,9 +44,6 @@
                                                             </label>
                                                             <switch opaque="NO" tag="2" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="jnV-91-t4G">
                                                                 <rect key="frame" x="15.5" y="0.0" width="51" height="31"/>
-                                                                <connections>
-                                                                    <action selector="firstSwitchAction:" destination="BYZ-38-t0r" eventType="valueChanged" id="h5I-0L-ZDh"/>
-                                                                </connections>
                                                             </switch>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="-" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RXq-gH-1tS">
                                                                 <rect key="frame" x="69.5" y="0.0" width="8" height="31"/>
@@ -80,9 +77,6 @@
                                                             </label>
                                                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="lwr-RK-bZS">
                                                                 <rect key="frame" x="15.5" y="0.0" width="51" height="31"/>
-                                                                <connections>
-                                                                    <action selector="secondSwitchAction:" destination="BYZ-38-t0r" eventType="valueChanged" id="w3v-6S-GXZ"/>
-                                                                </connections>
                                                             </switch>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="-" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IyT-1I-DHk">
                                                                 <rect key="frame" x="69.5" y="10.5" width="8" height="20.5"/>

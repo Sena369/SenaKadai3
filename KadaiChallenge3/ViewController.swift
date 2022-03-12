@@ -21,12 +21,32 @@ class ViewController: UIViewController {
     @IBOutlet private weak var firstLabel: UILabel!
     @IBOutlet private weak var secondLabel: UILabel!
     @IBOutlet private weak var resultLabel: UILabel!
-    
-    @IBAction func firstSwitchAction(_ sender: Any) {
-    }
-    @IBAction func secondSwitchAction(_ sender: Any) {
-    }
+ 
     @IBAction func calculateButton(_ sender: Any) {
+        
+        let firstValue = Int(firstText.text ?? "") ?? 0
+        let secondValue = Int(secondText.text ?? "") ?? 0
+        
+        let num1 : Int
+        let num2 : Int
+        
+        if firstSwitch.isOn == true {
+            num1 = 0 - firstValue
+        } else {
+            num1 = firstValue
+        }
+        
+        if secondSwitch.isOn == true {
+            num2 = 0 - secondValue
+        } else {
+            num2 = secondValue
+        }
+        
+        firstLabel.text = String(num1)
+        secondLabel.text = String(num2)
+        
+        resultLabel.text = String(num1 + num2)
+        
     }
 }
 
