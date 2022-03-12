@@ -22,10 +22,10 @@ class ViewController: UIViewController {
         let num : (UISwitch,Int) -> Int = {
             $0.isOn ?  -$1 : $1
         }
-        
+
         let num1 = num(firstSwitch, textFieldValue[0])
         let num2 = num(secondSwitch, textFieldValue[1])
-        
+
         firstLabel.text = String(num1)
         secondLabel.text = String(num2)
         resultLabel.text = String(num1 + num2)
