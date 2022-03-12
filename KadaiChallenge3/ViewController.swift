@@ -12,8 +12,8 @@ class ViewController: UIViewController {
     @IBOutlet private var textField: [UITextField]!
     @IBOutlet private weak var firstSwitch: UISwitch!
     @IBOutlet private weak var secondSwitch: UISwitch!
-    @IBOutlet weak var firstLabel: UILabel!
-    @IBOutlet weak var secondLabel: UILabel!
+    @IBOutlet private weak var firstLabel: UILabel!
+    @IBOutlet private weak var secondLabel: UILabel!
     @IBOutlet private weak var resultLabel: UILabel!
  
     @IBAction func calculateButton(_ sender: Any) {
