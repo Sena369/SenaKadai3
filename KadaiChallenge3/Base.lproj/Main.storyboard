@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -13,14 +12,14 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="KadaiChallenge3" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="4vH-JE-rn6">
-                                <rect key="frame" x="30" y="64" width="354" height="263"/>
+                                <rect key="frame" x="30" y="20" width="540" height="263"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="89" translatesAutoresizingMaskIntoConstraints="NO" id="obQ-xX-ZJV">
-                                        <rect key="frame" x="55" y="0.0" width="244" height="85"/>
+                                        <rect key="frame" x="148" y="0.0" width="244" height="85"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="bottom" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="F4g-wh-Qql">
                                                 <rect key="frame" x="0.0" y="0.0" width="77.5" height="85"/>
@@ -91,7 +90,7 @@
                                         </subviews>
                                     </stackView>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="W3a-9Q-HZx">
-                                        <rect key="frame" x="143.5" y="115" width="67" height="31"/>
+                                        <rect key="frame" x="236.5" y="115" width="67" height="31"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="Button"/>
                                         <connections>
@@ -99,7 +98,7 @@
                                         </connections>
                                     </button>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="46" translatesAutoresizingMaskIntoConstraints="NO" id="N19-4y-eFQ">
-                                        <rect key="frame" x="81.5" y="176" width="191.5" height="87"/>
+                                        <rect key="frame" x="174.5" y="176" width="191.5" height="87"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="nXt-ML-H4I">
                                                 <rect key="frame" x="0.0" y="0.0" width="191.5" height="20.5"/>
@@ -154,8 +153,8 @@
                         <outlet property="resultLabel" destination="hUu-6k-DPz" id="jlv-eF-ue8"/>
                         <outlet property="secondLabel" destination="j64-c1-988" id="fxs-u6-65U"/>
                         <outlet property="secondSwitch" destination="lwr-RK-bZS" id="JKZ-qH-pWz"/>
-                        <outletCollection property="textField" destination="1Bj-eh-vxR" collectionClass="NSMutableArray" id="yRa-Uq-Di2"/>
-                        <outletCollection property="textField" destination="LFB-n4-MjH" collectionClass="NSMutableArray" id="cFe-A2-OpW"/>
+                        <outletCollection property="textFields" destination="1Bj-eh-vxR" collectionClass="NSMutableArray" id="yRa-Uq-Di2"/>
+                        <outletCollection property="textFields" destination="LFB-n4-MjH" collectionClass="NSMutableArray" id="cFe-A2-OpW"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
