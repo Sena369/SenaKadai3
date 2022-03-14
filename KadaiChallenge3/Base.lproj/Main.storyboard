@@ -154,8 +154,8 @@
                         <outlet property="resultLabel" destination="hUu-6k-DPz" id="jlv-eF-ue8"/>
                         <outlet property="secondLabel" destination="j64-c1-988" id="fxs-u6-65U"/>
                         <outlet property="secondSwitch" destination="lwr-RK-bZS" id="JKZ-qH-pWz"/>
-                        <outletCollection property="textField" destination="1Bj-eh-vxR" collectionClass="NSMutableArray" id="yRa-Uq-Di2"/>
-                        <outletCollection property="textField" destination="LFB-n4-MjH" collectionClass="NSMutableArray" id="cFe-A2-OpW"/>
+                        <outletCollection property="textFields" destination="1Bj-eh-vxR" collectionClass="NSMutableArray" id="Axw-Ae-rN1"/>
+                        <outletCollection property="textFields" destination="LFB-n4-MjH" collectionClass="NSMutableArray" id="O1p-4j-Eyb"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
