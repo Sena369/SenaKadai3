@@ -10,8 +10,7 @@ import UIKit
 class ViewController: UIViewController {
     
     @IBOutlet private var textFields: [UITextField]!
-    @IBOutlet private weak var firstSwitch: UISwitch!
-    @IBOutlet private weak var secondSwitch: UISwitch!
+    @IBOutlet private var signSwitches: [UISwitch]!
     @IBOutlet private weak var firstLabel: UILabel!
     @IBOutlet private weak var secondLabel: UILabel!
     @IBOutlet private weak var resultLabel: UILabel!
@@ -19,7 +18,6 @@ class ViewController: UIViewController {
     @IBAction func calculateButton(_ sender: Any) {
 
         let textFieldValues = textFields.map{ Int($0.text ?? "") ?? 0 }
-        let signSwitches : [UISwitch] = [firstSwitch, secondSwitch]
         let signedNums = zip(signSwitches, textFieldValues).map { $0.isOn ? -$1 : $1 }
 
         firstLabel.text = String(signedNums[0])
